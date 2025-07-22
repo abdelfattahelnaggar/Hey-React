@@ -9,7 +9,7 @@ import NotFound from "./Components/NotFound/NotFound"
 function App() {
   const routes = createBrowserRouter([
     {
-      path: "/",
+      path: "",
       element: <Layout />,
       children: [
         {

@@ -1,0 +1,10 @@
+img{
+    width: 100%;
+    display: block;
+}
+.not-found{
+    background-image: url('/src/assets/notFound.jpg');
+    height: 100vh;
+    background-size:contain;
+    background-position: center;
+}
