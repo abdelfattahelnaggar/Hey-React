@@ -1,0 +1,7 @@
+.message__form-btn{
+    background-color: rgb(26, 188, 156);
+    transition: all 0.3s ease-in-out;
+    &:hover{
+        background-color: rgb(26, 188, 156, 0.8);
+    }
+}

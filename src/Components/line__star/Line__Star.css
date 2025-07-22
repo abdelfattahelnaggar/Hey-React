@@ -1,0 +1,15 @@
+.line {
+  height: 4px;
+  width: 100px;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+}
+.bg-main-color {
+  background-color: RGB(44, 62, 80);
+}
+.text-main-color {
+  color: RGB(44, 62, 80);
+}
