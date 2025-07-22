@@ -2,14 +2,14 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom"
 import About from "./Components/About/About"
 import Contact from "./Components/Contact/Contact"
 import Portfolio from "./Components/Portfolio/Portfolio"
-import Home from "./Components/Home/Home.jsx"
+import Home from "./Components/Home/Home"
 import Layout from "./Components/Layout/Layout"
 import NotFound from "./Components/NotFound/NotFound"
 
 function App() {
   const routes = createBrowserRouter([
     {
-      path: "",
+      path: "Hey-React",
       element: <Layout />,
       children: [
         {
@@ -34,7 +34,9 @@ function App() {
         },
       ]
     }
-  ])
+  ],{
+    basename: "/Hey-React"
+  })
   return (
     <>
       <RouterProvider router={routes} />
