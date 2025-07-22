@@ -7,4 +7,5 @@ img{
     height: 100vh;
     background-size:contain;
     background-position: center;
+    background-repeat: no-repeat;
 }
