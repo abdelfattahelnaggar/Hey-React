@@ -3,9 +3,9 @@ img{
     display: block;
 }
 .not-found{
+    background-color: #7DCDC4;
     background-image: url('/src/assets/notFound.jpg');
-    height: 100vh;
+    width: 100%;
     background-size:contain;
     background-position: center;
-    background-repeat: no-repeat;
 }
